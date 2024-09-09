@@ -1,6 +1,7 @@
 //  {} ! # $ % ^ & * () + | : " <> ? _ +
 import { useState } from 'react'
 import Map from './component/Map'
+import ShadowMap from './component/ShadowMap'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div>hi</div>
       <Map/>
+      <ShadowMap/>
     </>
   )
 }
